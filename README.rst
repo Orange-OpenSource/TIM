@@ -2,7 +2,7 @@
 Trusted Identity Module
 ==========================
 
-A local smartphone module acting as an OpenID Connect Server proxy and obtains tokens on behalf of installed native applications. The TIM improves the user experience with single sign on, security and privacy enhancement.
+A local smartphone module acting as an OpenID Connect Server proxy and delivers trusted tokens to installed native applications. The TIM improves the user experience with single sign on, security and privacy enhancement.
 
 Description
 -----------
