@@ -31,12 +31,12 @@ Development Tools
 -----------------
    * SIM Development: `IzyNFC`_
    * Android Development: `Eclipse`_ + `Android ADT plugin`_
-   * Server Development: Any PHP Editor and Server `Easy PHP`_
+   * Server Development: Any PHP Server, `Easy PHP`_ is a good one
 
 .. _`IzyNFC`: http://izynfc.sourceforge.net/
 .. _`Eclipse`: https://eclipse.org/downloads/
 .. _`Android ADT plugin`: http://developer.android.com/tools/sdk/eclipse-adt.html
-.. _`Android Studio`: http://developer.android.com/tools/studio/index.html
+.. _`Easy PHP`: http://www.easyphp.org/
 Required Equipment
 -------------------
    * For JAVA Card development: a JAVA Card at least version 2.2.1 with a Card Reader
