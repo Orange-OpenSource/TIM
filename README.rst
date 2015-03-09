@@ -59,7 +59,8 @@ https://bitbucket.org/PEOFIAMP/phpoidc/
 
 TIM Sequence Diagram
 ====================
-![](https://cloud.githubusercontent.com/assets/11352074/6554851/3382fa6a-c660-11e4-9db9-5f2497b8e40a.png)
+|TIM-SEQ-DIAG|
+.. |TIM-SEQ-DIAG| image:: https://cloud.githubusercontent.com/assets/11352074/6554851/3382fa6a-c660-11e4-9db9-5f2497b8e40a.png
 
 
 Authorization request
