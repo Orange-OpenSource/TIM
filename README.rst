@@ -98,4 +98,4 @@ License
 -------
 
 
-Copyright © 2015[Orange Labs]
+Copyright © 2015 [Orange Labs]
