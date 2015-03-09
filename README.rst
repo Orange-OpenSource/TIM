@@ -31,7 +31,7 @@ Development Tools
    * Android Development: `Eclipse`_ + `Android ADT plugin`_
    * Server Development: Any PHP Editor and Server `Easy PHP`_
 
-.. _` IzyNFC`: http://izynfc.sourceforge.net/
+.. _`IzyNFC`: http://izynfc.sourceforge.net/
 .. _`Eclipse`: https://eclipse.org/downloads/
 .. _`Android ADT plugin`: http://developer.android.com/tools/sdk/eclipse-adt.html
 .. _`Android Studio`: http://developer.android.com/tools/studio/index.html
@@ -40,8 +40,7 @@ Required Equipment
    * For JAVA Card development: a JAVA Card at least version 2.2.1 with a Card Reader
    * For Android development: a `compatible android device`_
 
-.. _`compatible android device`:
-https://code.google.com/p/seek-for-android/wiki/Devices
+.. _`compatible android device`: https://code.google.com/p/seek-for-android/wiki/Devices
 
 
 Installation
@@ -53,8 +52,7 @@ For the OIDC-TIM server, follow the steps described in `the phpOIDC project`_ an
 
 Compile and execute on the corresponding devices (JAVACard and Android ).
   
-.. _`the phpOIDC project`:
-https://bitbucket.org/PEOFIAMP/phpoidc/
+.. _`the phpOIDC project`: https://bitbucket.org/PEOFIAMP/phpoidc/
 
 
 TIM Sequence Diagram
@@ -65,33 +63,33 @@ TIM Sequence Diagram
 
 Authorization request
 =====================
-![](https://cloud.githubusercontent.com/assets/11352074/6554846/33599436-c660-11e4-811f-2dc0b455bb20.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554846/33599436-c660-11e4-811f-2dc0b455bb20.png
 
 Refresh Token Request
 =====================
-![](https://cloud.githubusercontent.com/assets/11352074/6554848/337ed318-c660-11e4-91ca-99e420ef84ba.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554848/337ed318-c660-11e4-91ca-99e420ef84ba.png
 
 New TIM Access Token Request
 ============================
-![](https://cloud.githubusercontent.com/assets/11352074/6554850/3382399a-c660-11e4-9ac3-de3bf5da406a.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554850/3382399a-c660-11e4-9ac3-de3bf5da406a.png
 
 
 User Infos Request
 ============================
-![](https://cloud.githubusercontent.com/assets/11352074/6554847/336d638a-c660-11e4-88bf-88d059b0a76f.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554847/336d638a-c660-11e4-88bf-88d059b0a76f.png
 
 
 User Infos Request
 ==================
-![](https://cloud.githubusercontent.com/assets/11352074/6554847/336d638a-c660-11e4-88bf-88d059b0a76f.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554847/336d638a-c660-11e4-88bf-88d059b0a76f.png
 
 Use Case 01
 ===========
-![](https://cloud.githubusercontent.com/assets/11352074/6554852/338330ac-c660-11e4-9a3a-4f89ed0ec62d.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554852/338330ac-c660-11e4-9a3a-4f89ed0ec62d.png
 
 Use Case 02
 ===========
-![](https://cloud.githubusercontent.com/assets/11352074/6554849/338016c4-c660-11e4-9014-bcfcca67aa3f.png)
+.. image:: https://cloud.githubusercontent.com/assets/11352074/6554849/338016c4-c660-11e4-9014-bcfcca67aa3f.png
 
 
 License
