@@ -50,7 +50,7 @@ Installation
 After downloading and setting up the development environments, download every part of the project (OIDC-TIM Server, Android service, JAVA Card service, and the test app)
 
 Import the projects in the corresponding environments, for example: the Android Service and the test app in Eclipse + ADT, the JAVA Card service in IzyNfc.
-For the OIDC-TIM server, follow the steps described in `the phpOIDC project`_ and then replace the corresponding files with the OIDC-TIM files.
+For the OIDC-TIM server, follow the steps described in `the phpOIDC project`_ and then replace the corresponding files with the OIDC-TIM project files.
 
 Compile and execute on the corresponding devices (JAVACard and Android ).
   
