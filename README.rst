@@ -7,16 +7,19 @@ A local smartphone module acting as an OpenID Connect Server proxy and delivers 
 Description
 -----------
 The Trusted Identity Module project is a set of four projects:  an Android service, a JAVA Card Service, a modified OpenID Connect Server (with TIM features)
-and a basic Android TIM-Client app enabling to test the TIM services.
+and a basic Android TIM-Client app enabling to test the TIM services. The OIDC-TIM server is based on an `open source implementation of OpenID Connect in PHP by Nomura Research Institute, Ltd`_.
 The TIM (Android and JavaCard parts) operates as a server and receives requests from native applications needing to access user personnal data.
-The TIM provides many benefits among with:
+The TIM works in offline and online modes and provides many benefits among with:
     *	Usage continuity when in offline scenario (or in a roaming situation)
     *	Privacy improvement for the end-user as the online IdP is not contacted and therefore unable to track the user’s activity
     *	Improved security with the use of a combination of Trusted Execution and Secure storage
+    
+In online mode the TIM is connected to the OIDC-TIM server and recovers access tokens and refresh tokens for the requesting app.
+The TIM then stores the tokens in the JAVA Card. Based on those tokens the TIM creates new access tokens (tim-access tokens) for the requesting application which
+can then use it to access a Ressource Server and recover requested user personnal data.
 
-
-This repository contains four modules that are complementary. We have on one hand services that are part of the Trusted Identity Module (an Android service and a JAVA Card Service), and a modified OpenID Connect Server (with TIM features). On the other hand, a basic Android client app enabling to test the TIM services.
-The OIDC-TIM server is based on an `open source implementation of OpenID Connect in PHP by Nomura Research Institute, Ltd`_.
+In the offline mode, the TIM does not contact the OIDC-TIM server but instead uses the stored tokens to create tim-access tokens for
+native applications. The offline mode prevents the server from monitoring the user activity and hence preserves his privacy.
 
 .. _`open source implementation of OpenID Connect in PHP by Nomura Research Institute, Ltd`: https://bitbucket.org/PEOFIAMP/phpoidc/
 
