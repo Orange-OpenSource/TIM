@@ -12,9 +12,9 @@ and a basic Android TIM-Client app enabling to test the TIM services. The OIDC-T
 The TIM (Android and JavaCard parts) operates as a server and receives requests from native applications needing to access user personnal data.
 The TIM works in offline and online modes and provides many benefits among with:
 
-    *	Usage continuity when in offline scenario (or in a roaming situation)
-    *	Privacy improvement for the end-user as the online IdP is not contacted and therefore unable to track the user’s activity
-    *	Improved security with the use of a combination of Trusted Execution and Secure storage
+*	Usage continuity when in offline scenario (or in a roaming situation)
+*	Privacy improvement for the end-user as the online IdP is not contacted and therefore unable to track the user’s activity
+*	Improved security with the use of a combination of Trusted Execution and Secure storage
     
 In online mode the TIM is connected to the OIDC-TIM server and recovers access tokens and refresh tokens for the requesting app.
 The TIM then stores the tokens in the JAVA Card. Based on those tokens the TIM creates new access tokens (tim-access tokens) for the requesting application which
@@ -30,13 +30,12 @@ ensures the usage continuity when moving from a technology to another (eg: wifi 
 
 References
 ----------
-   * `OpenID Connect protocol`_ 
-   * `OpenID Connect Server Implementation (PHP)`_ (phpOIDC Project, commit number 6ac8e6d from 2014-09-05)
-   * Smart Card API for Android `Seek For Android`_ 
-   * Cryptography Libraries for Android `Spongy castle libs from Roberto Tyley`_
-   
+* OpenID Connect protocol http://openid.net/connect/
+* `OpenID Connect Server Implementation (PHP)`_ (phpOIDC Project, commit number 6ac8e6d from 2014-09-05)
+* Smart Card API for Android `Seek For Android`_ 
+* Cryptography Libraries for Android `Spongy castle libs from Roberto Tyley`_
 
-.. _`OpenID Connect protocol`: http://openid.net/connect/
+   
 .. _`Seek For Android`: https://code.google.com/p/seek-for-android/wiki/Index
 .. _`OpenID Connect Server Implementation (PHP)`: https://bitbucket.org/PEOFIAMP/phpoidc/
 .. _`Spongy castle libs from Roberto Tyley`: https://github.com/rtyley/spongycastle
@@ -45,9 +44,9 @@ References
 
 Development Tools
 -----------------
-   * SIM Development: `IzyNFC`_
-   * Android Development: `Eclipse`_ + `Android ADT plugin`_
-   * Server Development: Any PHP Server, `Easy PHP`_ is a good one
+* SIM Development: `IzyNFC`_
+* Android Development: `Eclipse`_ + `Android ADT plugin`_
+* Server Development: Any PHP Server, `Easy PHP`_ is a good one
 
 .. _`IzyNFC`: http://izynfc.sourceforge.net/
 .. _`Eclipse`: https://eclipse.org/downloads/
@@ -55,8 +54,8 @@ Development Tools
 .. _`Easy PHP`: http://www.easyphp.org/
 Required Equipment
 -------------------
-   * For JAVA Card development: a JAVA Card at least version 2.2.1 with a Card Reader
-   * For Android development: a `compatible android device`_
+* For JAVA Card development: a JAVA Card at least version 2.2.1 with a Card Reader
+* For Android development: a `compatible android device`_
 
 .. _`compatible android device`: https://code.google.com/p/seek-for-android/wiki/Devices
 
@@ -113,5 +112,16 @@ Use Case 02
 License
 -------
 
+Copyright © 2015 Orange
 
-Copyright © 2015 [Orange Labs]
+This project is licensed under the Apache License, Version 2.0 (the "License");
+you may not use it except in compliance with the License.
+You may obtain a copy of the License at
+
+&nbsp;&nbsp;&nbsp;http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
