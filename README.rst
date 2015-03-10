@@ -30,13 +30,13 @@ ensures the usage continuity when moving from a technology to another (eg: wifi 
 
 References
 ----------
-   * OpenID Connect protocol http://openid.net/connect/
+   * `OpenID Connect protocol`_ 
    * `OpenID Connect Server Implementation (PHP)`_ (phpOIDC Project, commit number 6ac8e6d from 2014-09-05)
    * Smart Card API for Android `Seek For Android`_ 
    * Cryptography Libraries for Android `Spongy castle libs from Roberto Tyley`_
    
 
-   
+.. _`OpenID Connect protocol`: http://openid.net/connect/
 .. _`Seek For Android`: https://code.google.com/p/seek-for-android/wiki/Index
 .. _`OpenID Connect Server Implementation (PHP)`: https://bitbucket.org/PEOFIAMP/phpoidc/
 .. _`Spongy castle libs from Roberto Tyley`: https://github.com/rtyley/spongycastle
