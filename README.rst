@@ -6,8 +6,8 @@ A local smartphone module acting as an OpenID Connect Server proxy and delivers 
 
 Description
 -----------
-The Trusted Identity Module project is a set of four projects:  an Android service, a JAVA Card Service, a modified OpenID Connect Server (with TIM features)
-and a basic Android TIM-Client app enabling to test the TIM services. The OIDC-TIM server is based on an `open source implementation of OpenID Connect in PHP by Nomura Research Institute, Ltd`_.
+The Trusted Identity Module project is a set of four projects:  an Android service (tim_service), a JAVA Card Service (TimCardlet), a modified OpenID Connect Server (phpOpTim) 
+and a basic Android TIM-Client app (HelloTim) enabling to test the TIM services. The OIDC-TIM server is based on an `open source implementation of OpenID Connect in PHP by Nomura Research Institute, Ltd`_.
 
 The TIM (Android and JavaCard parts) operates as a server and receives requests from native applications needing to access user personnal data.
 The TIM works in offline and online modes and provides many benefits among with:
