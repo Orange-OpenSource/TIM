@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TIM_PHP</string>
+    <string name="permDesc">TIM signature permission mandatory</string>
+    <string name="permLabel">TIM signature permission</string>
+</resources>

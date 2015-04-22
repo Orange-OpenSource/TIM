@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Java Card project properties</comment>
+<entry key="com.orange.tim_major_version">2</entry>
+<entry key="com.orange.tim_minor_version">64</entry>
+<entry key="card_profile_id">java_card_221_gp211</entry>
+<entry key="com.orange.tim.Tim">01 02 03 04 05 06 07 08 09 00 00</entry>
+<entry key="com.orange.tim">01 02 03 04 05 06 07 08 09</entry>
+</properties>
