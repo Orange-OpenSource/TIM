@@ -1,0 +1,24 @@
+{
+    "name": "NRI/phpOidc/phpop",
+    "description": "PHP OpenID Connect OP ",
+    "version": "1.0.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Author",
+            "email": "author@mycompany.com",
+            "homepage": "http://www.mycompany.com",
+            "role": "Developer"
+        }],
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-0": {
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.6.*"
+    }
+}

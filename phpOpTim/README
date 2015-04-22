@@ -1,0 +1,37 @@
+======================================================
+OpenID Connect Sample OP Implementation
+======================================================
+
+This is a sample RP implementation of the following specifications :
+
+OpenID Connect Core 1.0
+OpenID Connnect Discovery 1.0
+OpenID Connect Registration 1.0
+OpenID Connect Dynamic Registration 1.0
+OpenID Connect Session Management 1.0
+
+
+The OpenID Provider application performs end-user authentication, authorization, and provides identity
+and basic profile information to  Relying Parties.
+
+
+======================================================
+TIM contribution
+======================================================
+
+modified files from the original project:
+
+create_db.sql
+discovery.php
+index.php
+libdb.php
+libjsoncrypto.php
+README
+
+added : 
+keystore.jwk  : to be placed according to jwks_uri specified in table client
+
+add or update alias in your Apache httpd.conf file :
+Alias /phpOpTim/index.php/.well-known/webfinger your_path/phpOpTim/discovery.php
+Alias /phpOpTim/index.php/.well-known/openid-configuration your_path/phpOpTim/discovery.php
+
